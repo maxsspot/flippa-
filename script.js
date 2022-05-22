@@ -70,4 +70,5 @@
                     question = 1;
                 }
 }
+                location.href = "index.html";
         }
