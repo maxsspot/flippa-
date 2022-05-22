@@ -69,10 +69,5 @@
                 } else if (question > 5) {
                     question = 1;
                 }
-
-                // Redirects to correct version
-                if (location.href != "index.html") {
-                        location.href = "index.html";       
-                }
 }
         }
