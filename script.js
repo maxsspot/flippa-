@@ -74,11 +74,3 @@ var scoretext = document.getElementById ("score");
                     question = 1;
                 }
 }
-
-                // Controls for buttons
-
-document.addEventListener("keyup", function(event) {
-    if (event.key === '1') {
-        alert('Enter is pressed!');
-    }
-});
