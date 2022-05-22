@@ -70,5 +70,10 @@
                     question = 1;
                 }
 }
-                location.href = "index.html";
+                
+                if (loaction.href = "index.html") {
+                        
+                } else {
+                        location.href = "index.html";
+                }
         }
