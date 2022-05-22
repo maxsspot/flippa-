@@ -71,8 +71,8 @@
                 }
 
                 // Redirects to correct version
-                if (location.href != "index") {
-                        location.href = "index";       
+                if (location.href != "index.html") {
+                        location.href = "index.html";       
                 }
 }
         }
