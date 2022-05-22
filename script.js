@@ -27,11 +27,13 @@
                 location.reload ();
             }
 
-            var scoretext = document.getElementById ("score");
-            var scorejxss = 0;
-            var question = 0;
+           
             // Correct answer
             function eeeb () {
+                        var scoretext = document.getElementById ("score");
+            var scorejxss = 0;
+            var question = 0;
+                        
                 scorejxss++;
                 question++;
 
