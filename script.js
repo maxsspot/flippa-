@@ -24,14 +24,9 @@
                 setTimeout(function(){ overlay.opacity = "0.0"}, 2000);
             }
 
-            // Goes home
-            function homet () {
-                locaation.reload();
-            }
-
             // Incorrect answer
             function eee () {
-                homet();
+                location.reload ();
             }
 
             // Correct answer
