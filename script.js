@@ -4,7 +4,7 @@
             const game = document.getElementById ("game").style;
             const overlay = document.getElementById ("overlay").style;
             var scoretext = document.getElementById ("score");
-            var score = 0;
+            var scorejXss = 0;
             var question = 0;
             
             // Opens how to play
@@ -36,10 +36,10 @@
 
             // Correct answer
             function eeeb () {
-                score++;
+                scorejxss++;
                 question++;
 
-                scoretext.innerHTML = score;
+                scoretext.innerHTML = scorejxss;
 
                 if (question == 1) {
                     document.getElementById ("fir").style.display = "none";
