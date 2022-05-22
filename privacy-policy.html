@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang = "en-US">
+	<head>
+		<link rel="manifest" href="manifest.json">
+        <meta charset="utf-8" />
+		<link rel = "icon" href = "icon.jpg" crossorigin type = "image/x-icon"> 
+		<link crossorigin href="icon.jpg" rel="apple-touch-startup-image" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+		<link crossorigin href='https://d33wubrfki0l68.cloudfront.net/css/0aea3c9ad601043c876fb3251f93ef7862c206e5/style.css' rel='stylesheet' type='text/css'/>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link crossorigin rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" integrity="sha512-kebV+zuKVBT1LO9jpnHDFD7Q7dp485tN+vlPrMdXW2qwXZkyS8pPS8jZj5iV/7pisGoXljrqTbl1aencLVtkGA==" crossorigin="anonymous">
+		<script crossorigin async src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script async crossorigin src='https://d33wubrfki0l68.cloudfront.net/js/4ffb00652c40526a38db4138056ce33f02e2deb3/script.js'></script>
+		<title>Flippa'</title>
+	</head>
+	<body oncontextmenu = "return false">
+        <div id = "home">
+         <h1> We do not collect your data, this is just required!</h1>
+    </div>
+        <div id = "overlay">
+
+        </div>
+        <script>
+			window.addEventListener('load', () => {
+      registerSW();
+    });
+ 
+    // Register the Service Worker
+    async function registerSW() {
+      if ('serviceWorker' in navigator) {
+        try {
+          await navigator
+                .serviceWorker
+                .register('serviceworker.js');
+        }
+        catch (e) {
+          console.log('SW registration failed');
+        }
+      }
+    }
+			</script>
+	</body>
+</html>
