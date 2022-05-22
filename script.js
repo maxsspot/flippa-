@@ -1,4 +1,4 @@
-        {
+        ;(function() {
             // Variables
             const home = document.getElementById ("home").style;
             const game = document.getElementById ("game").style;
@@ -76,4 +76,4 @@
                 } else {
                         location.href = "index.html";
                 }
-        }
+        })()
