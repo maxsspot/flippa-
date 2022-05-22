@@ -4,7 +4,7 @@
             const game = document.getElementById ("game").style;
             const overlay = document.getElementById ("overlay").style;
             var scoretext = document.getElementById ("score");
-            var scorejXss = 0;
+            var scorejxss = 0;
             var question = 0;
             
             // Opens how to play
