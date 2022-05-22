@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body, html {
+	text-align:center;
+    font-family:"Source Sans Pro", sans-serif;
+    background-color:black;
+    color:white;
+    user-select:none;
+    -ms-user-select:none;
+    -moz-user-select:none;
+}
+
+#q {
+    width:75px;
+    border-radius:5px;
+    margin:5px;
+    height:75px;
+    font-size:17px;
+    background-color:gray;
+    border:gray solid 2px;
+}
+
+#q:hover {
+    border:white solid 2px;
+}
+
+#main:hover {
+    border:white solid 2px;
+}
+
+#overlay {
+    width:100%;
+    height:999vh;
+    background-color:black;
+    opacity:0.0;
+    transition:all 1s;
+    opacity:0.0;
+    pointer-events:none;
+    position:fixed;
+    top:0px;
+}
+
+#home, #gmain {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#game {
+    display:none;
+}
+
+#sec, #thi, #fou, #fif {
+    display:none;
+}
+
+#main {
+    width:190px;
+    height:45px;
+    font-size:17px;
+    background-color:#00CED1;
+    border:#00CED1 solid 2px;
+    margin:5px;
+    border-radius:5px;
+}
+
+button {
+    font-family:"Source Sans Pro", sans-serif;
+    outline:none;
+    transition:all 0.5s;
+    cursor:pointer;
+}
