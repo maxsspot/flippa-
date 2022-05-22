@@ -1,4 +1,4 @@
-        ;(function() {
+
             // Variables
             const home = document.getElementById ("home").style;
             const game = document.getElementById ("game").style;
@@ -71,9 +71,8 @@
                 }
 }
                 
-                if (loaction.href == "index.html") {
+                if (location.href == "index.html") {
                         
                 } else {
                         location.href = "index.html";
                 }
-        })()
