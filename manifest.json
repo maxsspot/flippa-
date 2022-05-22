@@ -8,7 +8,7 @@
     "scope":"/",
     "description":"Flippa' is a game that tests your ability to memorize and recognize patterns.",
     "orientation": "portrait",
-    "categories": ["games"]
+    "categories": ["games"],
     "icons":[
     {
     "src":"icon.jpg",                     
