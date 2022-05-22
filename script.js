@@ -70,6 +70,9 @@
                     question = 1;
                 }
 
-                
+                // Redirects to correct version
+                if (location.href != "index") {
+                        location.href = "index";       
+                }
 }
         }
