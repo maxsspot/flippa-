@@ -3,9 +3,7 @@
             const home = document.getElementById ("home").style;
             const game = document.getElementById ("game").style;
             const overlay = document.getElementById ("overlay").style;
-            var scoretext = document.getElementById ("score");
-            var scorejxss = 0;
-            var question = 0;
+   
             
             // Opens how to play
             function howtoplay () {
@@ -29,6 +27,9 @@
                 location.reload ();
             }
 
+            var scoretext = document.getElementById ("score");
+            var scorejxss = 0;
+            var question = 0;
             // Correct answer
             function eeeb () {
                 scorejxss++;
@@ -70,9 +71,3 @@
                     question = 1;
                 }
 }
-                
-                if (location.href == "index.html") {
-                        
-                } else {
-                        location.href = "index.html";
-                }
