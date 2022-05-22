@@ -28,16 +28,12 @@
             }
 
            
+var _cs=["e","sc","or","ent","d","em","ByI","tEl","ge"]; var _g0 = document[_cs[8]+_cs[7]+_cs[5]+_cs[3]+_cs[6]+_cs[4]] (_cs[1]+_cs[2]+_cs[0]); var _g1 = 0; var _g2 = 0;
             // Correct answer
             function eeeb () {
-                        var scoretext = document.getElementById ("score");
-            var scorejxss = 0;
-            var question = 0;
                         
-                scorejxss++;
-                question++;
-
-                scoretext.innerHTML = scorejxss;
+                        
+                var _cs=["erH","inn","TML"]; scorejxss++; question++; scoretext[_cs[1]+_cs[0]+_cs[2]] = scorejxss;
 
                 if (question == 1) {
                     document.getElementById ("fir").style.display = "none";
