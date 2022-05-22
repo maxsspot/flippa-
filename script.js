@@ -75,3 +75,10 @@ var scoretext = document.getElementById ("score");
                 }
 }
 
+                // Controls for buttons
+
+document.addEventListener("keyup", function(event) {
+    if (event.key === '1') {
+        alert('Enter is pressed!');
+    }
+});
