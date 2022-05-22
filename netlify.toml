@@ -1,0 +1,23 @@
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "deny"
+        X-XSS-Protection = "1"
+        Cache-Control = "no-store"
+        Expect-CT = "max-age=86400, enforce"
+        X-Content-Type-Options = "nosniff"
+        Referrer-Policy = "no-referrer"
+        Cross-Origin-Opener-Policy = "same-origin"
+        Cross-Origin-Resource-Policy = "same-origin"
+        Cross-Origin-Embedder-Policy = "require-corp"
+        Access-Control-Allow-Origin = "https://flippa.netlify.app"
+        
+        Strict-Transport-Security = '''
+            max-age=31557600;
+            includeSubDomains;
+            preload
+        '''
+
+        Permissions-Policy = '''
+            interest-cohort=(none)
+        '''
